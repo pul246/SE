@@ -1,0 +1,123 @@
+body {
+  /* background-image: url("./eyes.jpeg"); */
+/* background-repeat: no-repeat; */
+background-color: #98FB98;
+/* background-size: cover ; */
+}
+
+.title{
+  
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin: auto;
+}
+
+.bg{
+  background-image: url("./lib.jpeg");
+  background-repeat: no-repeat;
+  /* background-color: #98FB98; */
+  background-size: cover ;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF69B4;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  display: inline-block;
+  color: black;
+font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #6CC417;
+}
+
+.formst{
+  font: 95% Arial, Helvetica, sans-serif;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 16px;
+  background: #EFFD5F;
+}
+.formst h1{
+  background: #FF69B4;
+  padding: 20px 0;
+  font-size: 140%;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  margin: -16px -16px 16px -16px;
+}
+.formst input[type="text"],
+.formst input[type="email"],
+.formst input[type="file"],
+.formst textarea,
+.formst select 
+{
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color: #555;
+  font: 95% Arial, Helvetica, sans-serif;
+}
+.formst input[type="text"]:focus,
+.formst input[type="email"]:focus,
+.formst input[type="file"]:focus,
+.formst textarea:focus,
+.formst select:focus
+{
+  box-shadow: 0 0 5px #43D1AF;
+  padding: 3%;
+  border: 1px solid #43D1AF;
+}
+
+.formst input[type="submit"]{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  padding: 3%;
+  background: #FF69B4;
+  border-bottom: 2px solid #30C29E;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;    
+  color: #fff;
+}
+.formst input[type="submit"]:hover{
+  background: #2EBC99;
+}
+
+#IYear{
+  color: black;
+}
+
+#IIYear{
+  color: black;
+}
